@@ -2,6 +2,7 @@ import React from "react";
 import classNames from "classnames";
 import './RoundedPulseBtn.css';
 import { PulsingMode, RoundedPulseBtnProps } from "./RoundedPulseBtn.types";
+import "../../../common/styles.css";
 
 const RoundedPulseBtn: React.FC<RoundedPulseBtnProps> = (props) => {
 
@@ -32,10 +33,10 @@ const RoundedPulseBtn: React.FC<RoundedPulseBtnProps> = (props) => {
     );
 
     return (
-        <button className={btnClasses} {...props}>
+        <div className={btnClasses} {...props}>
             <div>{typeof props.icon !== "undefined" ? props.icon : ""}</div>
             <div>{typeof props.text !== "undefined" ? props.text : ""}</div>
-        </button>
+        </div>
     );
 }
 

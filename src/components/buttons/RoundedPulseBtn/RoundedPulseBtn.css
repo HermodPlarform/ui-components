@@ -1,19 +1,19 @@
-button.pulse-button {
-    --primaryBoxShadow: "0 0 0 0 rgba(90, 153, 212, 0.5)";
-    --stepBoxShadow: "0 0 0 50px rgba(90, 153, 212, 0)";
-    --finalBoxShadow: "0 0 0 0 rgba(90, 153, 212, 0)";
+div.pulse-button {
+    --primaryBoxShadow: 0 0 0 0 rgba(90, 153, 212, 0.5);
+    --stepBoxShadow: 0 0 0 50px rgba(90, 153, 212, 0);
+    --finalBoxShadow: 0 0 0 0 rgba(90, 153, 212, 0);
 
     box-shadow: var(--primaryBoxShadow);
     animation: pulse 1.5s infinite;
     -webkit-animation: pulse 1.5s infinite;
 }
 
-button.pulse-button:hover {
+div.pulse-button:hover {
     animation: none;
     -webkit-animation: none;
 }
 
-button.no-pulse {
+div.no-pulse {
     animation: none;
     -webkit-animation: none;
 }

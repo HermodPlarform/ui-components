@@ -20,7 +20,7 @@ export enum PulsingMode {
  * @member {PulsingMode} pulsingMode optional definition of the pulsing mode, defaults to None
  * @member {Array<string>} addClasses optional additional css classes to use with the outer button element [tailwind]
  */
-export interface RoundedPulseBtnProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+export interface RoundedPulseBtnProps extends React.HTMLAttributes<HTMLDivElement> {
     text?: string;
     icon?: React.ReactElement<React.SVGProps<SVGSVGElement>>;
     pulsingMode?: PulsingMode;
