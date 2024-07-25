@@ -3,6 +3,7 @@ import { fn } from '@storybook/test';
 
 import RoundedPulseBtn from '../components/buttons/RoundedPulseBtn';
 import { PulsingMode } from '../components/buttons/RoundedPulseBtn/RoundedPulseBtn.types';
+import FeedbackIcon from '../components/icons/FeedbackIcon';
 
 const meta = {
   title: 'Example/RoundedPulseButton',
@@ -24,5 +25,13 @@ export const RoundedPulsingButtonExample: Story = {
         pulsingMode: PulsingMode.FocusOut,
         addClasses: ["bg-slate-100"],
         text: "test",
+    }
+};
+
+export const RoundedPulsingButtonWithIconExample: Story = {
+    args: {
+        pulsingMode: PulsingMode.FocusOut,
+        addClasses: ["bg-slate-100"],
+        icon: <FeedbackIcon width={40} height={40} />
     }
 };

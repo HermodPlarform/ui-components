@@ -24,7 +24,7 @@ const RoundedPulseBtn: React.FC<RoundedPulseBtnProps> = (props) => {
     let btnClasses = classNames(
         "flex",
         "flex-wrap",
-        "p-10",
+        "p-5",
         "justify-center",
         "items-center",
         "rounded-full",

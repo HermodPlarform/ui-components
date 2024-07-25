@@ -1,8 +1,7 @@
 import { ReactElement } from "react";
-import { IconProps } from "./IconProps";
 
 
-function JoinIcon(props: IconProps): ReactElement {
+function JoinIcon(props: React.SVGProps<SVGSVGElement>): ReactElement {
     return (
         <svg
             id="Layer_1"

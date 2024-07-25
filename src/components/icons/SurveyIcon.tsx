@@ -1,8 +1,7 @@
 import { ReactElement } from "react";
-import { IconProps } from "./IconProps";
 
 
-function SurveyIcon(props: IconProps): ReactElement {
+function SurveyIcon(props: React.SVGProps<SVGSVGElement>): ReactElement {
     return (
         <svg
             width="800px"

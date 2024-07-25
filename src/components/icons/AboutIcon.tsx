@@ -1,8 +1,7 @@
 import { ReactElement } from "react";
-import { IconProps } from "./IconProps";
 
 
-function AboutIcon(props: IconProps): ReactElement {
+function AboutIcon(props: React.SVGProps<SVGSVGElement>): ReactElement {
     return (
         <svg
             viewBox="0 0 128 128"

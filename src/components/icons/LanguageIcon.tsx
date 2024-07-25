@@ -1,8 +1,7 @@
 import { ReactElement } from "react";
-import { IconProps } from "./IconProps";
 
 
-function LanguageIcon(props: IconProps): ReactElement {
+function LanguageIcon(props: React.SVGProps<SVGSVGElement>): ReactElement {
     return (
         <svg
             fill="#000000"

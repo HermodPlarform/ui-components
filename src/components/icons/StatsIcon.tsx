@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
-import { IconProps } from "./IconProps";
 
-function StatsIcon(props: IconProps): ReactElement {
+
+function StatsIcon(props: React.SVGProps<SVGSVGElement>): ReactElement {
     return (
         <svg
             id="Layer_1"
